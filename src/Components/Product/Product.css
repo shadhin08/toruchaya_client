@@ -1,0 +1,48 @@
+.single-product
+{
+    margin: 10px;
+}
+.add-cart-section
+{
+    background-color: #3CB043;
+    display: flex;
+    height: 50px;
+    width: 300px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    border-radius: 03px;
+    transition: 0.5s;
+
+}
+.add-cart-section:hover
+{
+    background-color: #3A5311;
+}
+.add-cart-section:hover #indoor1
+{
+    border: 1px solid #3A5311;
+}
+.cart-item-quantity
+{
+    /* border: 1px solid green; */
+    height: 50px;
+    width: 80px;
+}
+#indoor1
+{
+    border: 1px solid #3CB043;
+    height: 50px;
+    width: 60px;
+
+    transition: 0.5s;
+    /* border: none; */
+}
+.add-cart-button
+{
+    color: white;
+    /* border: 1px solid green; */
+    float: left;
+    width: 178px;
+    border: none;
+    background: transparent;
+}

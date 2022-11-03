@@ -1,0 +1,39 @@
+.navLogo
+{
+    height: 30px;
+}
+.hover-dropdown
+{
+    display: none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding-left: 15px;
+    /* transition: 1s; */
+}
+
+@media (min-width: 990px)
+{
+    
+    .hover-me:hover .hover-dropdown
+    {
+        display: block;
+        transition: 0.8s;
+    }
+    .hover-me:hover .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+    .arrow 
+    {
+        border: solid black;
+        border-width: 0 .8px .8px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+    .down 
+    {
+        transition: 300ms;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+}
